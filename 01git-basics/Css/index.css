@@ -17,6 +17,20 @@ dd
  **/
 
 /**
+ * Fonts Start
+ **/
+/**
+ * Shadows Into Light
+ * 
+ * Usage:
+ *     font-family: 'Shadows Into Light', cursive;
+ **/
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+/**
+ * Font End
+ **/
+
+/**
  * Layout Start
  **/
 html
@@ -62,6 +76,11 @@ html
 {
     background-color: black;
     color: white;
+}
+
+body > header
+{
+    font-family: "Shadown Into Light", cursive;
 }
 
 dt::before
