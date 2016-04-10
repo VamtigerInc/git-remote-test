@@ -28,6 +28,9 @@ html
     height: 100%;
 }
 
+/**
+ *  This is to demonstrate a basic conflict
+ */
 body > header
 {
     margin-bottom: 2em;
