@@ -29,11 +29,14 @@ html
 }
 
 /**
- *  This is to demonstrate a basic conflict
+ *  This is to demonstrate a a real conflice
  */
 body > header
 {
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
+
+    display: flex;
+    justify-content: center;
 }
 
 dt::before
